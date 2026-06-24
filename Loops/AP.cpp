@@ -8,10 +8,10 @@ int main(){
         cout << i << " ";
     }
     cout << endl;
-    int a = 1;
-    for(int i=1;a<=n;i+=2){
+    int count= 1;
+    for(int i=1;count<=n;i+=2){
         cout << i << " ";
-        a++;
+        count++;
     }
     cout << endl;
     int b = 1;
