@@ -8,7 +8,9 @@ int main(){
     cout << &arr[1] << endl;
     cout << &arr[2] << endl;
     cout << &arr[3] << endl;
-    cout << &arr[4] << endl;
+    cout << &arr[4] << endl; 
+    // here as the memory of the array is stacked toghether that is why 
+    // memmory gap is of 4 as size of int variable is 4 bytes
     // 0x45dc7ff6b0
     // 0x45dc7ff6b4
     // 0x45dc7ff6b8
